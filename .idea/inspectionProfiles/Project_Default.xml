@@ -1,0 +1,66 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="lay-skin" />
+            <item index="1" class="java.lang.String" itemvalue="lay-filter" />
+            <item index="2" class="java.lang.String" itemvalue="href-url" />
+            <item index="3" class="java.lang.String" itemvalue="lay-options" />
+            <item index="4" class="java.lang.String" itemvalue="lay-id" />
+            <item index="5" class="java.lang.String" itemvalue="lay-allowclose" />
+            <item index="6" class="java.lang.String" itemvalue="lay-verify" />
+            <item index="7" class="java.lang.String" itemvalue="lay-submit" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="cheerio" />
+            <item index="1" class="java.lang.String" itemvalue="Flask" />
+            <item index="2" class="java.lang.String" itemvalue="uWSGI" />
+            <item index="3" class="java.lang.String" itemvalue="jieba" />
+            <item index="4" class="java.lang.String" itemvalue="emoji" />
+            <item index="5" class="java.lang.String" itemvalue="clean-text" />
+            <item index="6" class="java.lang.String" itemvalue="nltk" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E722" />
+          <option value="E302" />
+          <option value="E305" />
+          <option value="E731" />
+          <option value="E131" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="main_app.models.CaptureImages.*" />
+          <option value="main_app.utils.save_task_data.oriented_version" />
+          <option value="main_app.utils.save_task_data.font_size_setting" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
